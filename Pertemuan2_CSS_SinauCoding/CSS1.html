@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 2 Tugas 1 CSS</title>
+</head>
+<style>
+    .bg-left-color1{
+        background-color: rgb(255, 184, 151);
+        background-image: url(CSS-Orange-Logo.png);
+        background-size: 200px;
+        background-repeat: repeat-y;
+        background-position: left;
+        height: 330px;
+        margin: 5px;
+    }
+
+    .bg-right-color2{
+        background-color: rgb(172, 187, 238);
+        background-image: url(CSS-Blue-Logo.png);
+        background-size: 130px;
+        background-repeat: repeat-y;
+        background-position: right;
+        height: 330px;
+        margin: 5px;
+    }
+
+    .bg-center-color1{
+        background-image: url(CSS-Orange-Logo.png);
+    }
+
+    .zoom-logo-orange {
+        padding: 20px;
+        background-image: url(CSS-Orange-Logo.png);
+        background-position: center;
+        background-size: 150px;
+        background-repeat: no-repeat;
+        transition: transform .2s; 
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    .zoom-logo-orange:hover {
+        transform: scale(1.5);
+    }
+
+    .zoom-logo-blue {
+        padding: 20px;
+        background-image: url(CSS-Blue-Logo.png);
+        background-position: center;
+        background-size: 84px;
+        background-repeat: no-repeat;
+        transition: transform .2s; 
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    .zoom-logo-blue:hover {
+        transform: scale(1.5);
+    }
+
+    .font-title-html{
+        font-family: monospace;
+        text-align: center;
+        color: rgb(230, 93, 43);
+    }
+
+    .font-title-html:hover{
+        font-weight: 100;
+    }
+
+    .font-title-css{
+        font-family: monospace;
+        text-align: center;
+        color: rgb(54, 115, 207);
+    }
+
+    .font-title-css:hover{
+       font-weight: 100;
+    }
+
+    a{
+        color: black;
+        word-spacing: 5px;
+        font-size: 12px;
+    }
+
+    a:hover, a:active {
+        font-family: monospace;
+    }
+
+    .button-html{
+        background-color: orange;
+        color: aliceblue;
+    }
+
+    .button-html:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    .button-css{
+        background-color: rgb(98, 157, 233);
+        color: aliceblue;
+    }
+
+    .button-css:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+</style>
+<body>
+
+    <div class="bg-left-color1">
+        <div class="zoom-logo-orange"></div>
+            <div><h1 class="font-title-html">HTML</h1></div>
+                <div style="text-align: center">
+                    <a href="#">About HTML</a>
+                    <a href="#">Make HTML</a>
+                    <a href="#">Structure HTML</a>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque quis dignissimos voluptatum voluptatibus beatae dicta.</p>
+                    <button class="button-html">Read Me</button>
+                </div>
+    </div>
+    <div class="bg-right-color2">
+        <div class="zoom-logo-blue"></div>
+            <div><h1 class="font-title-css">CSS</h1></div>
+            <div style="text-align: center">
+                <a href="#">About CSS</a>
+                <a href="#">Make CSS</a>
+                <a href="#">Structure CSS</a>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore animi nostrum at laboriosam facere eos, magnam aspernatur? Consequatur, exercitationem vero!</p>
+                <button class="button-css">Read Me</button>
+            </div>
+    </div>
+
+</body>
+</html>
