@@ -1,0 +1,136 @@
+
+.header{
+    position: fixed;
+    display: block;
+    background: linear-gradient(109.6deg, rgb(95, 207, 128) 71.8%, rgb(78, 158, 112) 71.8%);
+    height: 80px;
+    width: 80%;
+    align-content: center;
+    margin: 0 10% 0 10%;
+    border-bottom: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+}
+
+body{
+    background-image: url(bg-img.png);
+    background-size: 50px;
+}
+
+.containt-hero{
+    background-image: url(hero-img.jpg);
+    background-size: cover;
+    padding-top: 80px;
+    display: block;
+    background-color: #f0f7f3;
+    height: 250px;
+    width: 80%;
+    align-content: center;
+    margin: 0 10% 0 10%;
+    border-bottom: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted
+}
+
+.containt-body{
+    display: inline-flex;
+    background-color: #f0f7f3;
+    height: 600px;
+    width: 80%;
+    align-content: center;
+    margin: 0 10% 0 10%;
+    border-bottom: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted
+}
+
+.containt-body-left{
+    display: inline-block;
+    background-color: white;
+    height: 580px;
+    width: 70%;
+    align-content: center;
+    margin: 10px 5px 10px 5px;
+}
+
+.containt-body-right{
+    display: block;
+    background-color: white;
+    height: 580px;
+    width: 30%;
+    align-content: center;
+    margin: 10px 5px 10px 5px;
+}
+
+.footer{
+    display: block;
+    background: linear-gradient(109.6deg, rgb(95, 207, 128) 71.8%, rgb(78, 158, 112) 71.8%);
+    height: 20px;
+    width: 80%;
+    align-content: center;
+    margin: 0 10% 10% 10%;
+    border-bottom: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+a   {
+    text-decoration: none; 
+    font-size: 20px;
+
+    padding: 14px 10px;
+}
+
+ul  {
+    padding: 14px;
+}
+
+li  {
+    list-style: none; display: inline;
+}
+
+li a{
+    color:white;
+}
+li a:hover{
+    background: transparent; 
+    color: gold; 
+    height: 80px;
+}
+
+.navi{
+    height: 50px;
+}
+
+p{
+    text-indent: 30px;
+    padding: 5px;
+    margin: 20px;
+    word-spacing: 5px;
+}
+
+.p-footer{
+        text-align: center;
+        text-indent: 0;
+        padding: 3px;
+        margin: 0;
+        word-spacing: 0;
+        font-size: 12px;
+    }
+
+h1{
+    text-align: center;
+    color: rgb(3, 51, 3);
+}
+
+h2{
+    text-align: left;
+    color: rgb(3, 51, 3);
+    margin-left: 30px;
+}
